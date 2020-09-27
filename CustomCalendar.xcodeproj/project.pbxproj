@@ -13,6 +13,7 @@
 		59DC0196252086C600EFB025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DC0194252086C600EFB025 /* Main.storyboard */; };
 		59DC0198252086CE00EFB025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DC0197252086CE00EFB025 /* Assets.xcassets */; };
 		59DC019B252086CE00EFB025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DC0199252086CE00EFB025 /* LaunchScreen.storyboard */; };
+		59DC01A3252089CF00EFB025 /* CalendarDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DC01A2252089CF00EFB025 /* CalendarDatePickerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		59DC0197252086CE00EFB025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59DC019A252086CE00EFB025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59DC019C252086CE00EFB025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59DC01A2252089CF00EFB025 /* CalendarDatePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDatePickerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				59DC018E252086C600EFB025 /* AppDelegate.swift */,
 				59DC0190252086C600EFB025 /* SceneDelegate.swift */,
+				59DC01A2252089CF00EFB025 /* CalendarDatePickerCell.swift */,
 				59DC0192252086C600EFB025 /* ViewController.swift */,
 				59DC0194252086C600EFB025 /* Main.storyboard */,
 				59DC0197252086CE00EFB025 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DC0193252086C600EFB025 /* ViewController.swift in Sources */,
+				59DC01A3252089CF00EFB025 /* CalendarDatePickerCell.swift in Sources */,
 				59DC018F252086C600EFB025 /* AppDelegate.swift in Sources */,
 				59DC0191252086C600EFB025 /* SceneDelegate.swift in Sources */,
 			);
